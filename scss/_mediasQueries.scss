@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 768px)
+{
+    p{
+        font-size: 1.5rem;
+    }
+}
+.ampliar{
+width: 500px;
+height: 500px;
+margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px){
+
+p {font-size: 1.5rem;
+}
+
+.ampliar{
+width: 500px;
+height: 500px;
+margin: 0 auto;
+}
+}
+
+@media only screen and (min-width: 1024px)
+{
+p {
+font-size: 1.5rem;
+}
+
+.ampliar{
+width: 800px;
+height: 800px;
+margin: 0 auto;
+}
+
+}

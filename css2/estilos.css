@@ -1,0 +1,207 @@
+@charset "UTF-8";
+header {
+  background-color: pink; }
+
+header h1 {
+  color: #fffdfb;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid coral; }
+
+body {
+  background-image: url(../imagenes/vintage-concrete.png);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 1.5rem; } }
+
+.ampliar {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto; }
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 1.5rem; }
+  .ampliar {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto; } }
+
+@media only screen and (min-width: 1024px) {
+  p {
+    font-size: 1.5rem; }
+  .ampliar {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto; } }
+
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+h1, h2, h3, h4, h6, p, section {
+  padding: 0.625rem;
+  margin: 1.25rem; }
+
+.caracteristicasObras {
+  font-size: 2.5rem; }
+
+.tamañoNumeroYCorreo {
+  font-size: 1.2rem; }
+
+.coverFlow {
+  display: block;
+  margin: auto; }
+
+.imagenLogo {
+  border-radius: 50%;
+  width: 40rem;
+  display: block;
+  margin: auto; }
+
+.imagenArtista {
+  display: block;
+  margin: auto; }
+
+h3 {
+  color: black;
+  text-align: center; }
+
+h6 {
+  color: black;
+  text-align: center; }
+
+.caracteristicas {
+  text-decoration: underline;
+  font-size: 1.5rem; }
+
+h2 {
+  color: white;
+  text-decoration: underline; }
+
+h4 {
+  color: black;
+  font-style: italic;
+  font-size: 1.7rem;
+  line-height: 1,5; }
+
+table.unstyledTable {
+  margin: auto; }
+
+table.unstyledTable td, table.unstyledTable th {
+  border: 0.2rem solid #262626; }
+
+table.unstyledTable thead {
+  background: #FF8888; }
+
+table.unstyledTable thead th {
+  font-weight: normal; }
+
+footer ul li {
+  list-style-type: none;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-position: inside; }
+
+.tituloQuienesSomos {
+  text-align: center; }
+
+.quienesSomos {
+  background-image: url(./imagenes/light-veneer.png);
+  width: 50rem;
+  height: 50rem;
+  overflow: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 1rem 1.2rem 1.5rem;
+  border: solid #a81616;
+  border-radius: 10px; }
+
+.tituloExhibicion {
+  text-align: center; }
+
+.navegadorPie {
+  background-color: coral; }
+
+/* Clase 6 Flexbox aplicado a la sección tienda*/
+.tituloTienda {
+  text-align: center; }
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.pintura {
+  width: 30rem;
+  height: 30rem;
+  margin: 2rem;
+  opacity: .5;
+  border: solid grey; }
+
+.pintura:hover {
+  opacity: 1;
+  transform: scale(1.2, 1.2); }
+
+/* Clase 6 Flexbox aplicado a la sección quienes somos , desafio complementario*/
+.persona {
+  width: 30rem;
+  height: 30rem;
+  margin: 2rem; }
+
+.luisa {
+  order: -1; }
+
+/* Clase 7 Grid aplicado a la sección "Exhibiciones", aqui tambien utilice la metodologia BEM */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 15rem;
+  padding: 2rem;
+  grid-gap: 1rem; }
+
+.gallery__item {
+  position: relative; }
+
+.gallery__imagenes {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.gallery__title {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background: linear-gradient(rgba(255, 255, 255, 0), black);
+  width: 100%; }
+
+.gallery__item:nth-child(4) {
+  grid-column-start: span 2; }
+
+.gallery__item:nth-child(5) {
+  grid-row-start: span 2; }
+
+.gallery__item:nth-child(9) {
+  grid-column-start: span 2; }
+
+.obrasDestacadas {
+  text-align: center;
+  font-weight: bold; }
+
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem; }
+
+.navbar-nav > li {
+  padding-left: 3rem;
+  padding-right: 3rem; }
