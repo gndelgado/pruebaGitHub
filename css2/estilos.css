@@ -30,7 +30,7 @@ body {
     height: 300px;
     margin: 0 auto; }
   .imagenLogo {
-    width: 200px; } }
+    width: 300px; } }
 
 @media only screen and (min-width: 1024px) {
   p {
@@ -40,7 +40,7 @@ body {
     height: 800px;
     margin: 0 auto; }
   .imagenLogo {
-    width: 300px; } }
+    width: 400px; } }
 
 body {
   font-family: Arial, Helvetica, sans-serif; }
@@ -209,3 +209,28 @@ main {
 .navbar-nav > li {
   padding-left: 3rem;
   padding-right: 3rem; }
+
+/* SASS MIXIM ARTISTAS */
+.artistaUno {
+  background-color: #f3d0d6;
+  text-align: center;
+  border-radius: 0.5rem; }
+  .artistaUno h2 {
+    color: black;
+    font-weight: bold; }
+
+.artistaDos {
+  background-color: #f5caa3;
+  text-align: center;
+  border-radius: 0.5rem; }
+  .artistaDos h2 {
+    color: black;
+    font-weight: bold; }
+
+.artistaTres {
+  background-color: #e0c9f6;
+  text-align: center;
+  border-radius: 0.5rem; }
+  .artistaTres h2 {
+    color: black;
+    font-weight: bold; }
