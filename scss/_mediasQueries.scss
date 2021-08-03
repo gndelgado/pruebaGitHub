@@ -4,12 +4,16 @@
     p{
         font-size: 1.5rem;
     }
-}
+
 .ampliar{
 width: 500px;
 height: 500px;
 margin: 0 auto;
 }
+
+.imagenLogo {
+    width: 100px;
+}}
 
 @media only screen and (min-width: 768px){
 
@@ -21,6 +25,11 @@ width: 500px;
 height: 500px;
 margin: 0 auto;
 }
+
+.imagenLogo {
+    width: 100px;
+}
+
 }
 
 @media only screen and (min-width: 1024px)
@@ -33,6 +42,10 @@ font-size: 1.5rem;
 width: 800px;
 height: 800px;
 margin: 0 auto;
+}
+
+.imagenLogo {
+    width: 200px;
 }
 
 }
