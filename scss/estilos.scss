@@ -33,6 +33,7 @@ h1, h2, h3, h4, h6, p, section {
 
 .tamañoNumeroYCorreo {
     font-size: 1.2rem;
+    background-color: cornsilk;
 }
 
 .coverFlow{
@@ -105,14 +106,15 @@ footer ul li{
 }
 .quienesSomos{
     background-image: url(./imagenes/light-veneer.png);
-    width: 50rem;
-    height: 50rem;
+    width: 30rem;
+    height: 30rem;
     overflow: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 0.5rem 1rem 1.2rem 1.5rem;
     border: solid rgb(168, 22, 22);
-    border-radius: 10px;
+    border-radius: 4px;
+    font-size: 2rem;
 }
 
 .tituloExhibicion {
