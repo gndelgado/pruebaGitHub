@@ -23,6 +23,7 @@ html {
 h1, h2, h3, h4, h6, p, section {
     padding: 0.625rem;
     margin: 1.25rem;
+    text-align:center;
 }
 
 .caracteristicasObras {
@@ -80,20 +81,6 @@ h4{
 }
 
 
-table.unstyledTable{
-margin: auto;
-}
-
-table.unstyledTable td, table.unstyledTable th {
-border: 0.2rem solid #262626;
-}
-table.unstyledTable thead {
-background: #FF8888;
-}
-table.unstyledTable thead th {
-font-weight: normal;
-}
-
 footer ul li{
     list-style-type: none;
     text-align: justify;
@@ -136,6 +123,7 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 
